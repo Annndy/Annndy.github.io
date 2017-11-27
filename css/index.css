@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+    margin: 0px;
+    padding: 0px;
+    width: 98vw;
+    height: 100vh;
+    background-color: #c8efff;
+    background-image: url(../img/A.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.introduction {
+    float: left;
+    margin-top: 30vh;
+    margin-left: 20vw;
+}
+
+.p1 {
+    opacity: 1;
+    font-size: 3em;
+    color: #ffffff;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 3px 3px #146eb4;
+}
+
+.p2 {
+    font-size: 1.3rem;
+}
+
+.p3 {
+    width: 350px;
+}
+
+.p4 {
+    margin-left: 8vw;
+    width: 12vw;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1vw;
+    border-radius: 10px;
+    background-color: #91cfe8;
+}
+
+.imglist {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.imglist>img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    width: 30%;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+}
+
+.container {
+    background-color: #c4eaf9;
+    border-radius: 10px;
+    padding: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-bottom: 1vw;
+    overflow: hidden;
+}
+
+.photo {
+    width: 15vw;
+    height: 15vw;
+    background-image: url(../img/hs.png);
+    background-size: 11.6vw;
+    background-position-x: 1.5vw;
+    background-position-y: 0vw;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.info {
+    margin-left: 10px;
+    float: left;
+    margin-top: 0.8vw;
+}
+
+div.info>div {
+    margin-top: 10px;
+}
+
+div.info>div.name {
+    margin-top: 0px;
+    font-size: 1.5rem;
+    font-weight: 540;
+}
+
+.btn {
+    margin: 1px;
+    width: 2.5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 0.5vw;
+    line-height: 1.42857143;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #dedede;
+    color: black;
+}
+
+.btn-red {
+    background-color: #f71403;
+    color: #fff;
+}
+
+.btn-red:hover {
+    background-color: #dedede;
+    color: black;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #dedede;
+    color: black;
+}
